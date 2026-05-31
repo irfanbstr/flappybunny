@@ -22,7 +22,7 @@ State = {
 
   pipes = {},
   spawn_timer = 0,
-  pipe_speed = 50, -- How fast the pipes scroll left (pixels per second)
+  pipe_speed = 100, -- How fast the pipes scroll left (pixels per second)
 
   -- New state variable: "PLAYING" or "GAMEOVER"
   game_mode = "PLAYING"
@@ -37,7 +37,7 @@ function _init()
     y = 90,
     w = 16,
     h = 16,
-    speed = 120,
+    speed = 150,
     velocity = 0,
     gravity = 500,
     jump_force = -150
